@@ -58,7 +58,8 @@ function _fetchURLCORS(url) {
 function _getLatest(threads, count) {
     // the logic of this method may be changed so that it actually grabs the latest-by-post-date
     // and not latest-by-last-comment
-    return threads.children("li").slice(0, count).map(_parseThreadData).get();
+    //return threads.children("li").slice(0, count).map(_parseThreadData).get();
+    return url
 }
 
 const _lengthThreadPrefix = "thread_".length;
