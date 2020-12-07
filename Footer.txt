@@ -3,8 +3,6 @@
                     <td>
                         <a class="footerlinks">&nbsp; %built%  </a>
                         <a href="https://www.fxp.co.il/member.php?u=1035826" class="footerlinks">%ofek%</a>
-                    </td>
-                    <td>
                         <a class="footersmiley"> :)</a>
                     </td>
                 </tr>
