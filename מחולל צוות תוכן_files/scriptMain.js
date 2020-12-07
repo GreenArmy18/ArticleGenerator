@@ -532,7 +532,7 @@ function showHeader(e) {
     }
 }
 function showFooter(e) {
-    var t = e.replace("%curdept%", currentdept).replace("%curdept%", currentdept).replace("%built%", "נבנה  על ידי").replace("%tal%", "טל").replace("%update%", "עודכן על ידי").replace("%ofek%", "אופק");
+    var t = e.replace("%curdept%", currentdept).replace("%curdept%", currentdept).replace("%built%", "נבנה  על־ידי").replace("%ofek%", "אופק");
     document.getElementById("footercontent").innerHTML = t
 }
 function showPreview() {
